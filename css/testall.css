@@ -1,0 +1,424 @@
+        
+        .font{
+            font-family: Open Sans;
+            font-family: Raleway,sans-serif;
+            float: center;
+            text-align: center;
+
+        }
+
+        @media (min-width: 768px){
+            #boxhp2{
+            max-width:100%;
+            }  }
+
+        @keyframes myfirst {
+            0%   {background: red; left: 0px; top: 0px;}
+            25%  {background: yellow; left: 200px; top: 0px;}
+            50%  {background: blue; left: 200px; top: 200px;}
+            75%  {background: green; left: 0px; top: 200px;}
+            100% {background: red; left: 0px; top: 0px;}
+        }
+
+        .top{
+            padding-top: 350px; 
+            padding-bottom: 10px;
+            background-position: center;
+        }
+
+        .top1{
+            padding-top: 200px; 
+            padding-bottom: 10px;
+            background-position: center;
+        }
+
+        .blue{
+            background-color: rgba(142, 196, 231, 1);
+        }
+
+        .bluefont{
+            color: #2389C9;
+        }
+
+        .white{
+            background-color: white;
+        }
+
+        .marginbottom{
+            margin-bottom: 30px;
+        }
+
+        .valign{
+            vertical-align: center;
+        }
+
+        .fixed{
+            position: fixed;
+        }
+
+        .relative{
+            position: relative;
+        }
+
+        .static{
+            position: static;
+        }
+
+        .contain{
+            background-size: contain;
+        }
+
+        .padding25{
+            padding: 25px;
+        }
+
+
+        /* Header */
+        
+        nav{
+            font-size: 15px;
+            border-radius: 80px;
+        }
+
+        .headerstyle{
+            padding-top: 50px;
+        }
+
+        #padnav{
+            padding-top: 60px;
+        }
+
+        #padbooknow{
+            padding-top: 52px; 
+        }
+
+        #sahanaresorts{
+                        word-wrap: break-word;
+                        text-align: start;
+                        pointer-events: none;
+                        line-height: normal;
+                        letter-spacing: 0.15em;
+                        color: white;
+                        font-size: 20px/1.4em;
+                        padding: 0;
+                
+        }
+
+        #pondicherry{
+                        word-wrap: break-word;
+                        text-align: start;
+                        pointer-events: none;
+                        line-height: normal;
+                        letter-spacing: 0.22em;
+                        color: white;
+                        font-size: 16px/1.4em;
+                        padding: 0;
+        }
+
+        #booknow{
+                
+                background-color: rgba(255, 255, 255, 1);
+                border: solid rgba(182, 243, 232, 1) 0px;
+                cursor: pointer !important;
+                text-align: initial;
+                display: flex;
+                align-items: center;
+                border-radius: 100px;
+                transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+        }
+
+        /* footer */
+
+        ul#menu li {
+            display:inline;
+        }
+
+        .pad{
+            padding-top: 30px;
+        }
+  
+        #callus{
+                position: absolute;             
+                font-size: 21px/1.4em;
+                color: #2389C9;
+            }
+
+        .social{
+            width: 27px;
+            height: 27px;
+            display: inline-block;
+            float: right;
+            align-items: center;
+        }
+
+        #followus{
+                font-size: 21px/1.4em; 
+                color: white;
+                word-wrap: break-word;
+        }
+       
+
+        #copyright{
+                position: absolute;
+                color: #FFFFFF;
+                font: normal normal normal 16px/1.4em raleway,sans-serif;
+            }
+
+        .ls03{
+            letter-spacing:0.03em;
+        }   
+
+        .ls02{
+             letter-spacing:0.02em;
+        }
+
+        .lh17{
+            line-height: 1.7em;
+        }
+
+        .lh13{
+            line-height: 1.3em;
+        }
+
+        #number{
+            font-weight:bold;
+            line-height:1.8em;
+            float: center;
+            text-align: center;
+        }
+
+        /* Index */
+
+            #welcome{
+                text-align:center;
+                text-indent: center;
+                font-size:34px;
+                letter-spacing:0.01em;
+                color: #605E5E;
+                word-wrap: break-word;
+                text-align: start;
+                pointer-events: none;
+            }
+
+            #bookingpad{
+                padding-top: 12px;
+                padding-right: 10px;
+                padding-bottom: 12px;
+                padding-left: 10px;
+            }
+
+
+            .contpadding{
+                padding-top: 40px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+                padding-left: 40px;
+                font-size:21px; 
+                text-align: center;
+            }
+
+            .boxcontent{
+                font: italic normal normal 16px/1.4em 'times new roman',times,serif;
+                color: #605E5E;
+                text-align: center;
+
+            }
+
+            #boxhp1{
+                padding-top: 500px; 
+                padding-bottom: 10px;
+                background-position: center;
+
+            }
+
+            #hp1{
+                background-image: url("../img/homepicture1.png");
+                width: 100%;
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+
+            #boxhp2{
+                padding-top: 75px;
+                background-image: url("../img/homepicture2.png");
+                width: 100%; 
+                left: 0px;
+                background-size: cover;
+                background-position: center; 
+                background-repeat: no-repeat;
+            }
+
+            /* About us */
+
+            #mainpic{
+                background-image: url("../img/aboutusmain.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                max-width: 100%;
+            }
+
+            .boxes{
+                background-color: white;
+                padding: 40px;
+                line-height:1.2em;
+                font: italic normal normal 16px/1.4em 'times new roman',times,serif;
+                float: left;
+            }
+
+                    /* Rooms and rates */
+
+                    #roomsandrates{
+                        padding: 20px;
+                        margin-top: 20px; 
+                        background-color: white;
+                    }
+
+                    #roomsandratespic{
+                        background-image: url("../img/roomsandratesmain.jpg");
+                        background-size: contain;
+                        background-repeat: no-repeat;      
+                       /* position: fixed;*/
+                        top: 0;
+
+            }       
+
+                    .font{
+                        font-family: Open Sans;
+                        font-family: Raleway,sans-serif;
+                    }
+
+                    .rowpadding{
+                        padding: 25px;
+                        
+                    }
+
+                    .amen{
+                        padding-top: 30px;
+
+                    }
+
+                    .bed{
+                        font-size: 12px;
+                    }
+
+
+                    .costpad{
+                        font-size: 30px;
+                        color: #605E5E !important;
+                        fill: #605E5E !important;
+                    }
+
+                    .villa{
+                        margin: 0;
+                        padding-top: 10px;
+                        border: 0;
+                        font: inherit;
+                        font-size: 100%;
+                        vertical-align: baseline;
+                        line-height: 1.4;
+                        white-space: nowrap;
+                        color: #605E5E !important;
+                        fill: #605E5E !important;
+                        line-height: normal;
+                        font-weight: 700;
+                        margin-bottom: 9px;
+                        font-size: 20px;
+                        text-transform: capitalize;
+                    }
+
+
+
+                    /* Activities */
+
+                    .image{
+                        height: 334px;
+                        width: 334px;
+                    }
+                    
+                    .blank{
+                       /* position: absolute;*/
+                        top: 442px;
+                        height: 864px;
+                        background-color: grey;
+                        z-index: -1;
+                        width: 100%;
+                    }    
+
+                    #activitiespic{
+                        background-image: url("../img/activitiesmain.png");
+                        z-index: -2;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        max-width: 100%;
+/*                        position: fixed;
+*/                    }
+
+                    #activitiestitle{
+                        padding: 20px;
+                        margin-top: 20px; 
+                        background-color: white;
+                    }
+
+                    #para{
+                        line-height: 1.2em;
+                        font: italic normal normal 16px/1.4em 'times new roman',times,serif;
+                        color: #605E5E;
+                        background-color: white;
+                        padding: 40px;
+                        margin: 20px;
+                    }
+
+
+                    /* Contact Us */
+
+                    .fillup{
+                            border-color: 2px solid blue; 
+                            background-color: white;
+                            height: 25px;
+                            }
+
+                    form{
+                        border-spacing: 2px;
+                        border-color: 1px solid blue;
+                        border-radius: 0; 
+                        padding: 20px;
+                        }
+
+                    #sahanapadding{
+                            padding: 20px;
+                            background-color: white;
+                    }
+
+                   
+
+                    #contactus{
+                        padding: 20px;
+                        /*margin-top: 20px; */
+                        background-color: white;
+                        font-size: 16px;
+                    }   
+
+                    #myVideo {
+                        position: fixed;
+                        left: 0;
+                        bottom: 0;
+                        min-width: 100%; 
+                        min-height: 100%;
+                        background-size: contain;
+                    }
+
+                    .content {
+                        position: fixed;
+                        bottom: 0;
+                        background: rgba(0, 0, 0, 0.5);
+                        color: #f1f1f1;
+                        width: 100%;
+                        padding: 20px;
+                    }
+
+                    
+
+
+
+            
+

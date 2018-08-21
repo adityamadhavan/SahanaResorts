@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<style type="text/css">
+			/*.pin{
+				width: 27px;
+			    height: 43px;
+			    overflow: hidden;
+			    position: absolute;
+			    opacity: 0.01;
+			    left: -14px
+			    top: -43px;
+			    z-index: 0;*/
+			}
+		</style>
+
+		<title>Contact</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+		<link rel="stylesheet" href="..\css\all.css">
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script> 
+		
+  
+
+	</head>
+
+	<body class="font">
+
+		<div class="container fixed">
+			<video autoplay muted loop id="myVideo videoz" style="z-index: -1;">
+			  <source src="../img/contactus.mp4" type="video/mp4">
+			  Your browser does not support HTML5 video.
+			</video>
+		</div>	
+
+		<div id="header" class="headerstyle">HEADER</div>	
+		<div class="container relative top1">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="container" style="background-color: white;">
+						<div class="row">
+							<div class="col-sm-1"></div>
+							<div class="col-sm-10">
+								<div class="col-sm-3">
+									<h4 class="row" id="contactus">Contact Us</h4>
+								</div>
+								<div class="col-sm-9" style="margin-top: 5px;"></div>
+								<div class="row white">
+									
+									<p class="boxcontent padding25">A free weekend to spare? A much-needed break from stressful life? Kids on vacation? Hit us up with your deets for some brilliant retreats.</p>
+
+									<div class="col-sm-3 white">
+										<div id="sahanapadding"><h5>Sahana Resorts</h5></div>
+										<p>23, Goubert Ave, White Town, Puducherry, 605001 info@sahanaresorts.com Tel: 123-456-7890 Fax: 123-456-7890</p>
+									</div>
+									<div class="col-sm-9 white">
+										<form>
+										    <div class="input-group" style="border-color: blue;">
+										      <span class="input-group-addon"></span>
+										      <input id="Name" type="text" class="form-control" name="Name" placeholder="Name">
+										    </div>
+										    <br>
+										    <div class="input-group">
+										      <span class="input-group-addon"></span>
+										      <input id="Email" type="text" class="form-control" name="Email" placeholder="Email">
+										    </div>
+										    <br>
+										    <div class="input-group">
+										      <span class="input-group-addon"></span>
+										      <input id="Subject" type="text" class="form-control" name="Subject" placeholder="Subject">
+										    </div>
+										    <br>
+										    <br>
+										    <div class="input-group" style="height: 200px;">
+										      <span class="input-group-addon"></span>
+										      <input id="Message" type="text" class="form-control" name="msg" placeholder="Message">
+										    </div>
+										</form>
+										<br>
+										<div class="row">
+											<div class="col-sm-7"></div>
+											<div class="col-sm-4">
+												<button type="button" class="btn btn-primary btn-block">Send</button>
+											</div>
+											<div class="col-sm-1"></div>
+										</div>
+											
+									</div>	
+								</div>
+							</div>	
+							<div class="col-sm-1"></div>								
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-sm-1"></div>
+							<div class="col-sm-10">
+								<div class="container">
+									<div id="map" class="mapstyle"></div>
+								</div>
+							</div>
+							<div class="col-sm-1"></div>				
+						</div>
+					</div>		
+				</div>
+			</div>					
+		</div>
+		
+		<div id="footer">FOOTER</div>		
+	</body>
+
+	<script>                  
+		$(document).ready(function(){
+			$('#header').load("../doc/header.html"); 
+		}); 
+	</script>
+
+	<script> 
+		$(document).ready(function(){	     
+			$('#footer').load("../doc/footer.html"); 
+		}); 
+	</script>
+
+	<script>
+	function myMap() {
+		var mapOptions = {
+		    center: new google.maps.LatLng(11.9314, 79.8339),
+		    zoom: 14,
+		    mapTypeId: google.maps.MapTypeId.MAP }
+		var myCenter = new google.maps.LatLng(11.9314, 79.8339);    
+		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+		var marker = new google.maps.Marker({position:myCenter});
+	  	marker.setMap(map);
+	}
+	</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWPnY2p0DhsapSUq8Qg-IKXe6wSBGLE6c&callback=myMap"></script>
+
+
+</html>
+ 
